@@ -350,28 +350,29 @@ template {
 
 /* Extra small devices (phones, 600px and down) */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
 body{
-  background: green;
+  /* background: blue; */
 }
 
 img{
   display: block;
   margin: 0;
-  max-height: 200px;
+  max-width: 100px;
 
 }
 
 .character-box{
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  flex: 1 1 auto;
   justify-content: center;
 
 }
 
 .character{
   border: 2px solid red;
- 
+  width: 40vw
 }
 }
 
