@@ -348,17 +348,61 @@ template {
   display: none;
 }
 
-/* Extra small devices (phones, 600px and down) */
-
-@media screen and (max-width: 425px) {
-body{
-  /* background: blue; */
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
 }
 
 img{
   display: block;
   margin: 0;
   max-width: 100px;
+
+}
+
+.character-box{
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 auto;
+  justify-content: center;
+  width: 45vw
+
+}
+
+.mike{
+  background-image: url("../assets/mike.png");
+  background-size: cover;
+background-repeat: no-repeat;
+}
+
+.quote{
+  width: 45vw;
+  border: 2px solid green;
+}
+
+.character{
+  border: 2px solid red;
+  width: 13vw
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width: 425px) {
+body{
+   /* background: blue;  */
+}
+
+img{
+  display: block;
+  margin: 0;
+  max-width: 75px;
 
 }
 
@@ -374,7 +418,7 @@ img{
   border: 2px solid red;
   width: 40vw
 }
-}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (min-width: 601px) and (max-width: 800px) {
