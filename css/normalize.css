@@ -354,29 +354,18 @@ body{
   background-repeat:repeat-y;
 }
 
-
 .container{
   display: flex;
   flex-direction: row;
-  justify-content: left;
   flex-wrap: wrap;
-  /* flex: 1 1 auto; */
-  margin-top: 20px;
   margin-left: 10px;
 }
 
-.left{
-  display: flex;
-  flex-direction: column;
-  width: 35vw;
-  /* justify-content: space-around; */
-}
 
 /* img{
   display: block;
   margin: 0;
   max-width: 100px;
-
 } */
 
 .character-box{
@@ -384,7 +373,9 @@ body{
   flex-flow: row wrap;
   flex: 1 1 auto;
   justify-content: center;
-  width: 60vw
+  width: 60vw;
+  position: relative;
+  top: -160px;
 }
 
 .mike{
@@ -451,7 +442,7 @@ body{
   border: 2px solid green;
 }
 
-.random{
+.btn{
   display: inline-block;
 }
 
@@ -470,7 +461,7 @@ border: 0;
 margin: px 0;
 padding: 0;
 
-} 
+}  
 
 /* .random{
   background-color: white;
@@ -484,8 +475,8 @@ padding: 0;
 
 @media screen and (max-width: 425px) {
   body{
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background-image: url('../assets/office.png');
     background-size:101%;
     background-repeat: no-repeat;
@@ -493,24 +484,23 @@ padding: 0;
   
   .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     flex: 1 0 0;
   }
-  
+
   .character-box{
+   position: static;
     display: flex;
-    flex: 0;
+    flex-flow: row nowrap;
     overflow: auto;
     outline: 1px solid red;
-    flex: 1 0 100px;
-
-
+    width: 100vw;
   }
   
   .character{
     /* border: 2px solid red; */
-    width: 1px;
+    /* width: 100px; */
     background-size: cover;
     background-repeat: no-repeat;
     overflow: auto;
@@ -519,7 +509,7 @@ padding: 0;
   
   .quote{
     width: 100vw;
-    height: 200px;
+    /* height: 200px; */
     text-align: center;
     border: 2px solid blue;
 

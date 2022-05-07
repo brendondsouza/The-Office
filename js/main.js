@@ -1,5 +1,5 @@
 //ADD EVENT LISTENER TO GET RANDOM QUOTE BUTTON
-const rando = document.querySelector('.random').addEventListener('click', getRandom)
+const rando = document.querySelector('.btn').addEventListener('click', getRandom)
 
 //ADD EVENT LISTENER TO GET INDIVIDUAL CHARACTER QUOTE
 const choice = document.querySelector('.character-box')
