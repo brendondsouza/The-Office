@@ -351,14 +351,25 @@ template {
 body{
   background-image: url('../assets/office.png');
   background-size:100%;
-  background-repeat: no-repeat;
+  background-repeat:repeat-y;
 }
+
+
 .container{
   display: flex;
   flex-direction: row;
   justify-content: left;
   flex-wrap: wrap;
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  /* justify-content: space-around; */
 }
 
 /* img{
@@ -373,7 +384,7 @@ body{
   flex-flow: row wrap;
   flex: 1 1 auto;
   justify-content: center;
-  width: 45vw
+  width: 60vw
 }
 
 .mike{
@@ -427,33 +438,45 @@ body{
 
 .character{
   /* border: 2px solid red; */
-  width: 13vw;
+  width: 24vh;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px;
+  height:24vh;
+  background-color: transparent;
+  border: 0px
 }
 
 .quote{
-  width: 45vw;
+  width: 35vw;
   border: 2px solid green;
-}
-
-button > h2{
-  margin: 0;
-  margin-top: 160px;
 }
 
 .random{
   display: inline-block;
 }
 
-button{
-  background-color: transparent;
+/* button > h2{
+  margin: 0;
+  margin-top: 160px;
+} */
+
+/* .random{
+  display: inline-block;
+} */
+
+/* button{
+  
 border: 0;
-/* margin: px 0; */
+margin: px 0;
 padding: 0;
 
-}
+} 
+
+/* .random{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10%;
+} */
 
 /* Extra small devices (phones, 600px and down) */
 
@@ -517,6 +540,7 @@ padding: 0;
   padding: 0;
   
   }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up)
