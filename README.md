@@ -31,7 +31,7 @@ Take a look at some of my other projects:
 <a target="_blank" href="https://github.com/brendondsouza/nasa-apod">NASA Picture of the Day</a>
         <br />
       <a target="_blank" href="https://github.com/brendondsouza/nasa-apod">
-            <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/nasa.gif" width="100%"  alt="Rigley 2"/>
+            <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/nasa.gif" width="100%"  alt="nasa app"/>
         </a>
     </td>
      <td width="33.3%" valign="top">
@@ -42,10 +42,10 @@ Take a look at some of my other projects:
         </a>
     </td>
     <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/brendondsouza/The-Office">Jeopard-ish! the Game</a>
+<a target="_blank" href="https://github.com/brendondsouza/Jeopardy-Game">Jeopard-ish! the Game</a>
       <br />
         <a target="_blank" href="https://github.com/brendondsouza/Jeopardy-Game">
-          <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/jeopardy.gif" width="100%" alt="Travelara.org"/>
+          <img src="https://github.com/brendondsouza/brendondsouza/blob/main/assets/jeopardy.gif" width="100%" alt="jeopardy game"/>
         </a>
     </td>
    
