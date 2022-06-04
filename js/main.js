@@ -28,8 +28,8 @@ function getFetch(value){
         console.log(arr) //[Math.floor(Math.random()*arr.length)])
         console.log(arr[Math.floor(Math.random()*arr.length)])
         const quote = arr[Math.floor(Math.random()*arr.length)]
-        document.querySelector('.insertQuote').innerText = quote.content
-        document.querySelector('.author').innerText = quote.character.firstname + ' ' + quote.character.lastname
+        document.querySelector('.insertQuote').innerText = `"${quote.content}"`
+        document.querySelector('.author').innerText = `- ${quote.character.firstname} ${quote.character.lastname}`
       })
       .catch(err => {
           console.log(`error ${err}`)

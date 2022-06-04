@@ -348,6 +348,11 @@ template {
   display: none;
 }
 
+body{
+  background-image: url('../assets/office.png');
+  background-size:100%;
+  background-repeat: no-repeat;
+}
 .container{
   display: flex;
   flex-direction: row;
@@ -356,12 +361,12 @@ template {
   flex: 1 1 auto;
 }
 
-img{
+/* img{
   display: block;
   margin: 0;
   max-width: 100px;
 
-}
+} */
 
 .character-box{
   display: flex;
@@ -369,13 +374,63 @@ img{
   flex: 1 1 auto;
   justify-content: center;
   width: 45vw
-
 }
 
 .mike{
   background-image: url("../assets/mike.png");
+}
+.jim{
+  background-image: url("../assets/jim.png");
+}
+.dwight{
+  background-image: url("../assets/dwight.png");
+}
+.pam{
+  background-image: url("../assets/pam.png");
+}
+.ryan{
+  background-image: url("../assets/ryan.png");
+}
+.kelly{
+  background-image: url("../assets/kelly.png");
+}
+.angela{
+  background-image: url("../assets/angela.png");
+}
+.kevin{
+  background-image: url("../assets/kevin.png");
+}
+.oscar{
+  background-image: url("../assets/oscar.png");
+}
+.andy{
+  background-image: url("../assets/andy.png");
+}
+.stanley{
+  background-image: url("../assets/stanley.png");
+}
+.phyllis{
+  background-image: url("../assets/phyllis.png");
+}
+.toby{
+  background-image: url("../assets/toby.png");
+}
+.creed{
+  background-image: url("../assets/creed.png");
+}
+.erin{
+  background-image: url("../assets/erin.png");
+}
+.darryl{
+  background-image: url("../assets/darryl.png");
+}
+
+.character{
+  /* border: 2px solid red; */
+  width: 13vw;
   background-size: cover;
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  height: 200px;
 }
 
 .quote{
@@ -383,49 +438,91 @@ background-repeat: no-repeat;
   border: 2px solid green;
 }
 
-.character{
-  border: 2px solid red;
-  width: 13vw
+button > h2{
+  margin: 0;
+  margin-top: 160px;
 }
 
+.random{
+  display: inline-block;
+}
 
+button{
+  background-color: transparent;
+border: 0;
+/* margin: px 0; */
+padding: 0;
 
-
+}
 
 /* Extra small devices (phones, 600px and down) */
 
 @media screen and (max-width: 425px) {
-body{
-   /* background: blue;  */
+  body{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/office.png');
+    background-size:101%;
+    background-repeat: no-repeat;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 0;
+  }
+  
+  .character-box{
+    display: flex;
+    flex: 0;
+    overflow: auto;
+    outline: 1px solid red;
+    flex: 1 0 100px;
+
+
+  }
+  
+  .character{
+    /* border: 2px solid red; */
+    width: 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+    height: 200px;
+  }
+  
+  .quote{
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    border: 2px solid green;
+
+  }
+  
+  button > h2{
+    margin: 0;
+    margin-top: 160px;
+  }
+  
+  .random{
+    display: inline-block;
+  }
+  
+  button{
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  
+  }
 }
 
-img{
-  display: block;
-  margin: 0;
-  max-width: 75px;
-
-}
-
-.character-box{
-  display: flex;
-  flex-flow: row wrap;
-  flex: 1 1 auto;
-  justify-content: center;
-
-}
-
-.character{
-  border: 2px solid red;
-  width: 40vw
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up)
 @media screen and (min-width: 601px) and (max-width: 800px) {
   body{
     background: red;
   }
-}
+} */
 /* Small devices (portrait tablets and large phones, 600px and up) */
  /* @media only screen and (min-width: 600px) {...}
 /* Medium devices (landscape tablets, 768px and up) */
